@@ -1,10 +1,17 @@
 # Hi, I'm Rafael 👋
 
-**Senior Full Stack Engineer** based in Belo Horizonte, Brazil · Founder of **RM Digital Solutions**
+**AI Engineer & Senior Full Stack Engineer** based in Belo Horizonte, Brazil · Founder of **RM Digital Solutions**
 
-I build products from zero to production: **React / Next.js** frontends, **NestJS** and **Java/Spring Boot** APIs, **PostgreSQL** and **AWS** infrastructure. I currently run multi-tenant SaaS systems in production in Brazil, the US and Italy, including generative AI modules on **AWS Bedrock**.
+I put AI to work in production: **LLM agents**, tool calling, **RAG** and agent memory, **MCP**, code-enforced guardrails, and LLM evaluation and observability, on top of a solid full-stack base: **React / Next.js**, **NestJS**, **Python/FastAPI** and **Java/Spring Boot**, **PostgreSQL** and **AWS**.
 
-10+ years in tech · previously at Itaú Unibanco, Grupo Boticário and Loft · consulting for Petz and international clients.
+10+ years in tech · AI Engineer at Cogna (Cognalabs) · previously at Itaú Unibanco, Grupo Boticário, Loft and Petz · building for clients in Brazil, the US and Italy.
+
+## AI engineering
+
+- **Agents in production:** agent engine on AWS Bedrock (Claude) with flows editable without deploys, tool calling via the Converse API, SSE streaming and anti-hallucination guardrails (field-by-field human review, closed taxonomy, token and latency telemetry)
+- **Multi-agent systems:** a 3-agent team with separate roles (data collection, decision, ledger/memory), scheduled routines, structured memory queried before every decision and an automated weekly evaluation
+- **LLM observability:** logs, metrics and response temperature of AI flows with Datadog (Cogna)
+- **Agentic engineering:** multi-model orchestration routed by the cost of an error, custom skills, hooks and MCP servers, versioned project memory (context, ADRs, sessions) across ~30 projects
 
 ## What I'm good at
 
@@ -37,7 +44,7 @@ I build products from zero to production: **React / Next.js** frontends, **NestJ
 **Backend:** NestJS · Node.js · Java/Spring Boot · Python · REST · BullMQ · SQS<br>
 **Data:** PostgreSQL (RLS, multi-tenant) · Drizzle · Redis · Supabase<br>
 **Infra:** AWS (ECS, EKS, Lambda, RDS, Bedrock) · Terraform · Docker · Kubernetes · Cloudflare<br>
-**AI:** Bedrock (Claude) · tool calling · SSE · guardrails · human-in-the-loop · MCP · Claude Code
+**AI:** Bedrock (Claude) · OpenAI · tool calling · SSE · multi-agent systems · RAG & agent memory · guardrails · human-in-the-loop · LLM observability (Datadog) · agent evaluation · MCP · Claude Code
 
 ## Let's talk
 
